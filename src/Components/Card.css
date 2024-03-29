@@ -1,0 +1,36 @@
+.Card {
+    max-width: 300px;
+    height: 120px;
+    background: white;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.Card2 {
+    max-width: 300px;
+    Height: 250px;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.Card p {
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}
+
+@keyframes fade {
+    from {opacity: 0;}
+    to {opacity: 1; }
+}
+
+.englishPhrase {
+    font-size: 20px;
+}
+
+.Card2 {
+    animation: fade 2s ease;
+}

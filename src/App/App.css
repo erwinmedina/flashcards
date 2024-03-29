@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background: linear-gradient(180deg, #efd5ff 0%, #515ada 100%);
+  font-family: "Sriracha"
 }
 
 .App-logo {
